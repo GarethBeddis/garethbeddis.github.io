@@ -1,0 +1,10 @@
+# Site Settings
+title: Gareth Beddis - Software Engineer
+description: >
+  22 year old studying Software Engineering at Cardiff university.
+author: Gareth Beddis
+email: garethbeddis@gmail.com
+github: GarethBeddis
+avatar: assets/images/avatar.jpg #
+baseurl: ""
+url: "http://garethbeddis.github.io"
