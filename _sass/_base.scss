@@ -18,12 +18,19 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    color: $dark;
+    font-family: $font-family-primary;
+    font-size: $font-size-primary;
+    font-weight: 300;
+    line-height: $line-height;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 ol, ul {
 	list-style: none;
