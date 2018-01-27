@@ -2,5 +2,7 @@
 layout: default
 ---
 <div class="main">
-  <h1> {{ site.author }} </h1>
+  <h1>{{ site.author }}</h1>
+  <p>{{ site.description }}</p>
+  <img src="{{ site.avatar | prepend: site.baseurl }}">
 </div>
