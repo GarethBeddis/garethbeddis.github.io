@@ -3,7 +3,13 @@
 ---
 @charset "utf-8";
 
+// Colours
+$bg-color-primary: #fff;
+
+// Padding
+$content-padding: 2em;
+$content-padding-small: 1em;
+
 // Import partials
 @import
-    "partials/header"
-    ;
+    "partials/header";
