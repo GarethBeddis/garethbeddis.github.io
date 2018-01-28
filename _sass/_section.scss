@@ -14,11 +14,12 @@
 	vertical-align: top;
 }
 .inner {
-  background-position:center top;
-  background-size:cover;
-  transition: all .2s ease-in-out;
   -webkit-transform: translateZ(0);
   -webkit-transition: all .2s ease-in-out;
+  background-position: center top;
+  background-size: cover;
+	display: inline-block;
+  transition: all .2s ease-in-out;
 }
 .section-text {
   .inner {
@@ -26,6 +27,11 @@
     text-align: left;
     vertical-align: middle;
   }
+}
+.underline {
+	border-bottom: 3px solid #4a4a4a;
+	display: inline-block;
+	font-weight: 900;
 }
 .lg-12 {
   height: 100vh;
