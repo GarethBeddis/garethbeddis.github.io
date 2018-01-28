@@ -19,7 +19,7 @@ $content-padding-small: 1em;
 
 // Import partials
 @import
+    "reset",
     "base",
     "header",
-    "reset",
     "section";
