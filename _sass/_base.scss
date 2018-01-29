@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  color: $dark;
+  color: $color-text-dark;
   font-family: $font-family-primary;
   font-size: $font-size-primary;
   font-weight: 300;
@@ -33,10 +33,10 @@ h2 {
   font-size: 1.8em;
 }
 a {
-  color: $dark;
+  color: $color-text-dark;
   text-decoration: none;
   &:visited {
-    color: $dark;
+    color: $color-text-dark;
   }
 }
 li {
