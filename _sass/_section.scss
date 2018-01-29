@@ -1,8 +1,8 @@
 .main {
 	font-size:0;
+	height: 100%;
 	overflow:hidden;
 	width:100%;
-	height: 100%;
 }
 .section {
   background: $bg-color-primary;
@@ -22,12 +22,28 @@
 	display: inline-block;
   transition: all .2s ease-in-out;
 }
+.section-post {
+	.inner {
+		height: 100%;
+		overflow: hidden;
+		width: 100%;
+	}
+}
 .section-text {
   .inner {
     padding: $content-padding * 2;
     text-align: left;
     vertical-align: middle;
   }
+}
+.post-details {
+	bottom: 0;
+  height: auto;
+  padding: $content-padding;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  width: 100%;
 }
 .underline {
 	border-bottom: 3px solid #4a4a4a;
