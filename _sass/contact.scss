@@ -9,3 +9,8 @@
 .contact-details {
 	font-size: 1.5em;
 }
+.underline {
+	border-bottom: 3px solid $color-text-dark;
+	display: inline-block;
+	font-weight: 700;
+}

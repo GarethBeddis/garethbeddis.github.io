@@ -6,16 +6,17 @@ layout: default
   {% include about.html %}
 
   {% for post in site.categories['work'] limit:2 %}
-    <a href="#">
-      <div class="section section-post lg-6 sm-12">
-        <div class="inner" style="background-image:url(http://www.pixedelic.com/themes/geode/demo/wp-content/uploads/sites/4/2014/04/placeholder4.png)">
-          <div class="post-details">
-              <h3 class="post-date">January 2018</h3>
-              <h2 class="post-title">{{ post.title }}</h2>
+    {% capture border-color %}{% cycle 'border-primary', 'border-secondary' %}{% endcapture %}
+      <a href="#">
+        <div class="section section-post lg-6 sm-12">
+          <div class="inner" style="background-image:url(http://www.pixedelic.com/themes/geode/demo/wp-content/uploads/sites/4/2014/04/placeholder4.png)">
+            <div class="post-details  {{ border-color }}">
+                <h3 class="post-date">January 2018</h3>
+                <h2 class="post-title">{{ post.title }}</h2>
+            </div>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
   {% endfor %}
 
   {% include contact.html %}
