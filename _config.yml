@@ -11,3 +11,4 @@ social_profile: GarethBeddis
 avatar: assets/images/avatar.jpg
 baseurl: ""
 url: "http://garethbeddis.github.io"
+permalink: :categories/:title

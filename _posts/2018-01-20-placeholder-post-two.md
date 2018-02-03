@@ -1,5 +1,5 @@
 ---
 layout: default
 title:  "Placeholder post two"
-categories: work
+categories: projects
 ---
