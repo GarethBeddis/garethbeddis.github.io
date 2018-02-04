@@ -8,7 +8,7 @@ skills: >
 author: Gareth Beddis
 email: garethbeddis@gmail.com
 social_profile: GarethBeddis
-avatar: assets/images/avatar.jpg
 baseurl: ""
-url: "http://garethbeddis.github.io"
+url: "https://garethbeddis.github.io"
 permalink: :categories/:title
+profile: /assets/images/avatar.jpg
