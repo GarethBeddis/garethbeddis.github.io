@@ -13,11 +13,12 @@ $color-secondary: #343956;
 // Fonts
 $font-family-primary: 'Open Sans', sans-serif;
 $font-size-primary:   16px;
-$font-size-secondary:  14px ;
 $line-height: 1.5;
 
-// Padding
+// Spacing & Padding
 $content-padding: 2em;
+$breakpoint-mobile: 55em;
+$breakpoint-mobile-small: 48.5em;
 
 // Import partials
 @import
